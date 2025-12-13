@@ -1,0 +1,9 @@
+{
+  "card_rakuten": {
+    "user_id": "",
+    "password": "",
+    "password2": "",
+    "login_url": "https://www.rakuten-card.co.jp/e-navi/",
+    "card_num": ""
+  }
+}

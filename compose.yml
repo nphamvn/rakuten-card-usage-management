@@ -1,5 +1,8 @@
 services:
   sync:
+    build: ./sync
     image: rakuten-card-usage-sync:latest
     volumes:
       - ./sync/config.json:/app/config.json:ro
+      - ./sync/captures:/app/captures
+      - ./sync/results:/app/results
